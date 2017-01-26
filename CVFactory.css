@@ -1,0 +1,27 @@
+section{
+  display: inline-block;
+
+}
+
+
+.add{
+  float: left;
+}
+
+.list{
+  float: right;
+}
+body{
+  font-family: Helvetica, Verdana, serif;
+  font-size: 4em;
+}
+
+button{
+  width: 60px;
+  height: 30px;
+  background: none;
+  border:none;
+}
+ul li{
+  list-style-type: none;
+}
