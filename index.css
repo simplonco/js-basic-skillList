@@ -1,0 +1,70 @@
+body {
+    background-image: url('https://cdn.pixabay.com/photo/2010/12/13/10/09/abstract-2384_960_720.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+h1 {
+    font-size: 5em;
+    color: rgb(252, 252, 252);
+}
+
+.add {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.addinput {
+    width: 20%;
+    height: 35px;
+}
+
+.list ul li {
+    list-style: none;
+    font-size: 2em;
+    color: rgb(245, 250, 255);
+    background-color: rgba(10, 67, 164, 0.3);
+    margin-top: -10%;
+    backface-visibility: visible;
+}
+
+#remBtn {
+    color: rgb(154, 34, 34);
+    backface-visibility: hidden;
+}
+
+.list {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+    margin-top: 8%;
+}
+
+#listContainer {
+    display: inline-block;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+#addInput:focus {
+    background: pink;
+    font-size: 20px;
+}
+
+
+/*Troisieme solution*/
+
+
+/*#remBtn {
+  display: none;
+}*/
